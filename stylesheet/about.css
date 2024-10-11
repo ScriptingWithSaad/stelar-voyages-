@@ -1,0 +1,51 @@
+#hero {
+    position: relative;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    text-align: center; 
+    overflow: hidden;
+}
+
+#company-history, #achievements {
+    color: #fff; 
+}
+
+#bg-video {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 106%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#hero h1, #hero p, #hero .cta-button {
+    z-index: 1; 
+}
+
+.team-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 2rem; 
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr; 
+    }
+}

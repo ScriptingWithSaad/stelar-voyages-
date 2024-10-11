@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Voyages Gallery | Scripting with Saad</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./stylesheet/main.css">
+    <link rel="stylesheet" href="./stylesheet/gallery.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <div class="logo">Stellar Voyages</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="missions.html">Missions</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery-hero" class="page-hero">
+            <video autoplay muted loop id="bg-video">
+                <source src="./assets/videos/gallery.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h1>Photo Gallery</h1>
+        </section>
+
+        <section id="gallery-grid" class="content-section">
+            <div class="gallery-item">
+                <img src="./assets/images/FirsthumanstepsonMars.png" alt="Mars Surface">
+                <p>First human steps on Mars (2031)</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/lunargate.png" alt="Lunar Base">
+                <p>Lunar Gateway Station (2028)</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/Asteroidminingoperations.jpg" alt="Asteroid Mining">
+                <p>Asteroid mining operations (2033)</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/spacewalk.png" alt="Space Walk">
+                <p>Maintenance spacewalk outside the ISS (2025)</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/rocketlaunch.png" alt="Rocket Launch">
+                <p>SV-X1 rocket launch (2024)</p>
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/lunarorbit.png" alt="Earth from Space">
+                <p>Earth as seen from Lunar orbit (2026)</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="missions.html">Missions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <ul class="social-links">
+                    <li><a href="#" class="social-icon">Facebook</a></li>
+                    <li><a href="#" class="social-icon">Twitter</a></li>
+                    <li><a href="#" class="social-icon">Instagram</a></li>
+                    <li><a href="#" class="social-icon">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Stellar Voyages. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="./script/all.js" defer></script>
+</body>
+</html>
